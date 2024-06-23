@@ -21,4 +21,46 @@ public class SupplierDto {
 
 	@NotEmpty(message = "Supplier email cannot be empty.")
 	private String email;
+	
+	
+	
+	public SupplierDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public Integer getSupplierId() {
+		return supplierId;
+	}
+
+
+
+	public void setSupplierId(Integer supplierId) {
+		this.supplierId = supplierId;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 }

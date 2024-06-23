@@ -25,4 +25,50 @@ public class ProductDto {
 
 	private SupplierDto supplier;
 
+	
+	
+	
+	public Integer getProductId() {
+		return productId;
+	}
+
+	public void setProductId(Integer productId) {
+		this.productId = productId;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+	public String getPrice() {
+		return price;
+	}
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+	public CategoryDto getCategory() {
+		return category;
+	}
+
+	public void setCategory(CategoryDto category) {
+		this.category = category;
+	}
+
+	public SupplierDto getSupplier() {
+		return supplier;
+	}
+
+	public void setSupplier(SupplierDto supplier) {
+		this.supplier = supplier;
+	}
+	
+	
+	
+
 }

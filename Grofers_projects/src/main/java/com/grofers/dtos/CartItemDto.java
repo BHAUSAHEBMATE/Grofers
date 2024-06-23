@@ -16,5 +16,28 @@ public class CartItemDto {
 	
     @Min(value = 0, message = "The quantity of CartItem must be greater than or equal to zero")
 	private int quantity;
+
+	public Integer getProductId() {
+		return productId;
+	}
+
+	public void setProductId(Integer productId) {
+		this.productId = productId;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+    
+    
+    
+    
+    
+    
+    
 	
 }

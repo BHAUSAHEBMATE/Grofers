@@ -17,4 +17,29 @@ public class CategoryDto {
 	@NotEmpty(message = "Category name must not be empty.")
 	private String name;
 	
+	public CategoryDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+	public Integer getCategoryId() {
+		return categoryId;
+	}
+
+	public void setCategoryId(Integer categoryId) {
+		this.categoryId = categoryId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
 }

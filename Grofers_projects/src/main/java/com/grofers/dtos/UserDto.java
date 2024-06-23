@@ -47,4 +47,51 @@ public class UserDto {
 	public String getPassword() {
 		return password;
 	}
+	
+	
+	public UserDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Integer getUserId() {
+		return userId;
+	}
+
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public UserRole getRole() {
+		return role;
+	}
+
+	public void setRole(UserRole role) {
+		this.role = role;
+	}
+
+	public Set<OrderDto> getOrders() {
+		return orders;
+	}
+
+	public void setOrders(Set<OrderDto> orders) {
+		this.orders = orders;
+	}
+	
+	
 }
