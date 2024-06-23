@@ -71,7 +71,7 @@ public class Cart {
         return this.totalAmount;
     }
     
-    // To create cart when user is created.
+    //  e To create cart when user is created.
     public Cart(User user) {
     	super();
     	this.user=user;
