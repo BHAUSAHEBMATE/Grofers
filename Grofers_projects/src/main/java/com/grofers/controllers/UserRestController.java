@@ -38,7 +38,7 @@ public class UserRestController {
     
     
     
-    
+    //
     // GET - getting all users: Only admin can fetch all users.
     @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/admin")
