@@ -1,4 +1,4 @@
- ## Grofers Backend Application
+ ## Online Grocery Store  Application
 Description
 This project is a comprehensive backend application for managing an online grocery store service like Grofers. It includes operations for managing Suppliers, Products, Categories, Users, and Orders. The application is built using Spring Boot and includes features for user authentication, role-based access control, and a recommendation system.
 
